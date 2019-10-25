@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html xmlns:wicket="http://wicket.apache.org" xmlns:margin-top="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta charset="utf-8" />
+		<title>Apache Wicket Quickstart</title>
+		<link href='https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:regular,bold' rel='stylesheet' type='text/css' />
+		<link rel="stylesheet" href="style.css" type="text/css" media="screen" title="Stylesheet" />
+	</head>
+	<body>
+	<table width="100%" height = "100%">
+		<tr align="center">
+			<td align="center">
+				<div align="center" >
+					<form wicket:id="form">
+						<div wicket:id="addressLabel" />
+						<input wicket:id = "emailAddress" /><br>
+						<div wicket:id="loginLabel" />
+						<input wicket:id = "login" /><br>
+						<div wicket:id = "passwordLabel" />
+						<input wicket:id = "password" /><br>
+						<div wicket:id = "topicLabel" />
+						<input wicket:id = "topic" />
+						<div wicket:id = "messageLabel" />
+						<textarea wicket:id = "message" /><br>
+						<button wicket:id = "button" > Send </button>
+						<div wicket:id = "sendStatusLabel" />
+					</form>
+				</div>
+			</td>
+		</tr>
+	</table>
+
+	</body>
+</html>
+
